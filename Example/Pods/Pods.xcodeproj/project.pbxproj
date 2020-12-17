@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1394B3CCAD2E2063AC4B7F41B47F355B /* HamsterLibrary1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1369A0A9D08BC90CE91C26BF07A22442 /* HamsterLibrary1-dummy.m */; };
+		189A9367D4F6A71C5E52F9FFFC51083F /* HamsterLibrary1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31C53CE65EAFB002A79C85CC09E637F3 /* HamsterLibrary1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F51997CD23B393A481B0C73ABA96014 /* Pods-HamsterLibrary1_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D03B4724B72DC4E8D6FAE497F679CF1 /* Pods-HamsterLibrary1_Example-dummy.m */; };
+		376C55AA398B84C6118C4750FD04236D /* Pods-HamsterLibrary1_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B478F45A9552F30F74C94D5056D87D16 /* Pods-HamsterLibrary1_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A338BDCB0853D8708565C9225DAB71C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7416D1DC98B46E35EB16FAEDC64CA2CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7D17DCF849CDCDFC4ABB36309AE19984 /* Printer1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B28BA0C6C77037B1013A32ADE65EFE4 /* Printer1.swift */; };
+		9C84D9A3A80731A0A81CB3F183A405EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EB95855DD01F4872D52B39F9CB4564E3 /* Pods-HamsterLibrary1_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA9BEA1E169F52F9B7BFCCC179A60BE /* Pods-HamsterLibrary1_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF4C9E0F5ACF7BA27BB03B00AC1E9D69 /* Pods-HamsterLibrary1_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AF5FC4DAB70DBEDB181324A7BB2BBC /* Pods-HamsterLibrary1_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FBD00DBA37C4E60B14F41C0BA38528D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E9D9552500AD04051ADCB89DDC648D2;
+			remoteInfo = HamsterLibrary1;
+		};
+		B9775AE95E3E9CE8C47D13EEDDE1EAD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4977B864C29FA4ABF8A8CAEF888B0043;
+			remoteInfo = "Pods-HamsterLibrary1_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03AECA1D9E8B3196CC4F286CB3297CA2 /* Pods-HamsterLibrary1_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HamsterLibrary1_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1369A0A9D08BC90CE91C26BF07A22442 /* HamsterLibrary1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HamsterLibrary1-dummy.m"; sourceTree = "<group>"; };
+		1535287C263891FBFCD875605DDA161E /* HamsterLibrary1-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HamsterLibrary1-Info.plist"; sourceTree = "<group>"; };
+		1EA9BEA1E169F52F9B7BFCCC179A60BE /* Pods-HamsterLibrary1_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HamsterLibrary1_Example-umbrella.h"; sourceTree = "<group>"; };
+		20BE4CE9125915BFBCAD2C8D502DD2B0 /* Pods-HamsterLibrary1_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HamsterLibrary1_Tests.modulemap"; sourceTree = "<group>"; };
+		239C0B50527D3970F5C1DD74284FA89A /* Pods-HamsterLibrary1_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HamsterLibrary1_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		28F0D39165F51C25A40E3DC4AEACC422 /* Pods-HamsterLibrary1_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HamsterLibrary1_Example-Info.plist"; sourceTree = "<group>"; };
+		31C53CE65EAFB002A79C85CC09E637F3 /* HamsterLibrary1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HamsterLibrary1-umbrella.h"; sourceTree = "<group>"; };
+		35DF84EC09494F1FAE07DDDB3FE9B3EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3D03B4724B72DC4E8D6FAE497F679CF1 /* Pods-HamsterLibrary1_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HamsterLibrary1_Example-dummy.m"; sourceTree = "<group>"; };
+		47AF5FC4DAB70DBEDB181324A7BB2BBC /* Pods-HamsterLibrary1_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HamsterLibrary1_Tests-dummy.m"; sourceTree = "<group>"; };
+		4AF4DAF830283565C2549620E8528E1B /* HamsterLibrary1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HamsterLibrary1.xcconfig; sourceTree = "<group>"; };
+		4EC21C8E447989CCD181AACF63FF71EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5B28BA0C6C77037B1013A32ADE65EFE4 /* Printer1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Printer1.swift; path = HamsterLibrary1/Classes/Printer1.swift; sourceTree = "<group>"; };
+		675BE96DD85B46D79237A43D94B91024 /* Pods-HamsterLibrary1_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HamsterLibrary1_Tests-Info.plist"; sourceTree = "<group>"; };
+		6780F792E35CD026546A039C07008347 /* Pods-HamsterLibrary1_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HamsterLibrary1_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		70947E433AC73C70D1BF0FD066731CF7 /* Pods_HamsterLibrary1_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HamsterLibrary1_Tests.framework; path = "Pods-HamsterLibrary1_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		739E057D02343FA8F4C34982D2EBB8D5 /* Pods-HamsterLibrary1_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HamsterLibrary1_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		782B4959F74356D6597A8AC1A03B302F /* HamsterLibrary1.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HamsterLibrary1.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B478F45A9552F30F74C94D5056D87D16 /* Pods-HamsterLibrary1_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HamsterLibrary1_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CA8033A7A088FE0B5643C0A4F3819DFA /* Pods-HamsterLibrary1_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HamsterLibrary1_Example.modulemap"; sourceTree = "<group>"; };
+		CA9EEA153C470CD3A911FED83E720EA7 /* Pods-HamsterLibrary1_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HamsterLibrary1_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CE09B69F70E5F7BB31DE6539EDD487ED /* Pods-HamsterLibrary1_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HamsterLibrary1_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D65A8C0CC440EE5F0C1101481138DDD1 /* Pods-HamsterLibrary1_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HamsterLibrary1_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D86809A4DE8FE90B1299143587ED361B /* HamsterLibrary1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HamsterLibrary1.modulemap; sourceTree = "<group>"; };
+		D934606065E6C6DF12ED1AC3D541685A /* Pods-HamsterLibrary1_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HamsterLibrary1_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DA2DD02DEFCD2431398FCBB7079F32E0 /* HamsterLibrary1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HamsterLibrary1.framework; path = HamsterLibrary1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F518AF81C49917C74621F90415547E10 /* HamsterLibrary1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HamsterLibrary1-prefix.pch"; sourceTree = "<group>"; };
+		F8DDCFC4FAFC203F3F6F047E5E54782B /* Pods-HamsterLibrary1_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HamsterLibrary1_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA1344C9E8BF60842E9080401712C9D1 /* Pods_HamsterLibrary1_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HamsterLibrary1_Example.framework; path = "Pods-HamsterLibrary1_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6118379DE4670807D5F46361357DB74F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C84D9A3A80731A0A81CB3F183A405EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9940D741C38DB4FB3C817EA69A1601A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7416D1DC98B46E35EB16FAEDC64CA2CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE1F6BD279648B4C056D849BB1E7248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A338BDCB0853D8708565C9225DAB71C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49C697390AA1FD7283D84DA458BBB37E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D86809A4DE8FE90B1299143587ED361B /* HamsterLibrary1.modulemap */,
+				4AF4DAF830283565C2549620E8528E1B /* HamsterLibrary1.xcconfig */,
+				1369A0A9D08BC90CE91C26BF07A22442 /* HamsterLibrary1-dummy.m */,
+				1535287C263891FBFCD875605DDA161E /* HamsterLibrary1-Info.plist */,
+				F518AF81C49917C74621F90415547E10 /* HamsterLibrary1-prefix.pch */,
+				31C53CE65EAFB002A79C85CC09E637F3 /* HamsterLibrary1-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HamsterLibrary1";
+			sourceTree = "<group>";
+		};
+		5211C85197B608791299F93E10D3AFDD /* Pods-HamsterLibrary1_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CA8033A7A088FE0B5643C0A4F3819DFA /* Pods-HamsterLibrary1_Example.modulemap */,
+				03AECA1D9E8B3196CC4F286CB3297CA2 /* Pods-HamsterLibrary1_Example-acknowledgements.markdown */,
+				F8DDCFC4FAFC203F3F6F047E5E54782B /* Pods-HamsterLibrary1_Example-acknowledgements.plist */,
+				3D03B4724B72DC4E8D6FAE497F679CF1 /* Pods-HamsterLibrary1_Example-dummy.m */,
+				D934606065E6C6DF12ED1AC3D541685A /* Pods-HamsterLibrary1_Example-frameworks.sh */,
+				28F0D39165F51C25A40E3DC4AEACC422 /* Pods-HamsterLibrary1_Example-Info.plist */,
+				1EA9BEA1E169F52F9B7BFCCC179A60BE /* Pods-HamsterLibrary1_Example-umbrella.h */,
+				D65A8C0CC440EE5F0C1101481138DDD1 /* Pods-HamsterLibrary1_Example.debug.xcconfig */,
+				CA9EEA153C470CD3A911FED83E720EA7 /* Pods-HamsterLibrary1_Example.release.xcconfig */,
+			);
+			name = "Pods-HamsterLibrary1_Example";
+			path = "Target Support Files/Pods-HamsterLibrary1_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5CB97F091C21A83D386F16111F94A5CB /* HamsterLibrary1 */ = {
+			isa = PBXGroup;
+			children = (
+				5B28BA0C6C77037B1013A32ADE65EFE4 /* Printer1.swift */,
+				C672D707A182DEC385C6AB73E99EE422 /* Pod */,
+				49C697390AA1FD7283D84DA458BBB37E /* Support Files */,
+			);
+			name = HamsterLibrary1;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		69F9AF83D3A12E4619D3E8B936553A3D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CB97F091C21A83D386F16111F94A5CB /* HamsterLibrary1 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7152A1C9706C3CD68B28EA214D50299C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5211C85197B608791299F93E10D3AFDD /* Pods-HamsterLibrary1_Example */,
+				77D3C7D38D8B9C2E36A84E7BE07F2A24 /* Pods-HamsterLibrary1_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		77D3C7D38D8B9C2E36A84E7BE07F2A24 /* Pods-HamsterLibrary1_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				20BE4CE9125915BFBCAD2C8D502DD2B0 /* Pods-HamsterLibrary1_Tests.modulemap */,
+				6780F792E35CD026546A039C07008347 /* Pods-HamsterLibrary1_Tests-acknowledgements.markdown */,
+				CE09B69F70E5F7BB31DE6539EDD487ED /* Pods-HamsterLibrary1_Tests-acknowledgements.plist */,
+				47AF5FC4DAB70DBEDB181324A7BB2BBC /* Pods-HamsterLibrary1_Tests-dummy.m */,
+				675BE96DD85B46D79237A43D94B91024 /* Pods-HamsterLibrary1_Tests-Info.plist */,
+				B478F45A9552F30F74C94D5056D87D16 /* Pods-HamsterLibrary1_Tests-umbrella.h */,
+				739E057D02343FA8F4C34982D2EBB8D5 /* Pods-HamsterLibrary1_Tests.debug.xcconfig */,
+				239C0B50527D3970F5C1DD74284FA89A /* Pods-HamsterLibrary1_Tests.release.xcconfig */,
+			);
+			name = "Pods-HamsterLibrary1_Tests";
+			path = "Target Support Files/Pods-HamsterLibrary1_Tests";
+			sourceTree = "<group>";
+		};
+		C672D707A182DEC385C6AB73E99EE422 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				782B4959F74356D6597A8AC1A03B302F /* HamsterLibrary1.podspec */,
+				35DF84EC09494F1FAE07DDDB3FE9B3EC /* LICENSE */,
+				4EC21C8E447989CCD181AACF63FF71EF /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				69F9AF83D3A12E4619D3E8B936553A3D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E17BDF47A6FE646B2BC8C82E0733CEAE /* Products */,
+				7152A1C9706C3CD68B28EA214D50299C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E17BDF47A6FE646B2BC8C82E0733CEAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA2DD02DEFCD2431398FCBB7079F32E0 /* HamsterLibrary1.framework */,
+				FA1344C9E8BF60842E9080401712C9D1 /* Pods_HamsterLibrary1_Example.framework */,
+				70947E433AC73C70D1BF0FD066731CF7 /* Pods_HamsterLibrary1_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4CAF9A6943E11518EBE3C5CCE084813C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				376C55AA398B84C6118C4750FD04236D /* Pods-HamsterLibrary1_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8E07410A62AAA54DD67C3D55C0ABCDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189A9367D4F6A71C5E52F9FFFC51083F /* HamsterLibrary1-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEBAE3053E0B3273E3550069EDB699C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB95855DD01F4872D52B39F9CB4564E3 /* Pods-HamsterLibrary1_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3E9D9552500AD04051ADCB89DDC648D2 /* HamsterLibrary1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D16E8D12D56ACBB9473AE05F4DA5995 /* Build configuration list for PBXNativeTarget "HamsterLibrary1" */;
+			buildPhases = (
+				C8E07410A62AAA54DD67C3D55C0ABCDC /* Headers */,
+				0EB01C21E6CC055F5C747F0CCBD874EE /* Sources */,
+				6118379DE4670807D5F46361357DB74F /* Frameworks */,
+				F9A4C41A0A03CB39BC4A899B6D52CC86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HamsterLibrary1;
+			productName = HamsterLibrary1;
+			productReference = DA2DD02DEFCD2431398FCBB7079F32E0 /* HamsterLibrary1.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4977B864C29FA4ABF8A8CAEF888B0043 /* Pods-HamsterLibrary1_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2174058CD54D39A2ACFE038E3840236E /* Build configuration list for PBXNativeTarget "Pods-HamsterLibrary1_Example" */;
+			buildPhases = (
+				CCEBAE3053E0B3273E3550069EDB699C /* Headers */,
+				48AF88C200DC12589D4EE70E6EA2C423 /* Sources */,
+				FAE1F6BD279648B4C056D849BB1E7248 /* Frameworks */,
+				373EEDF1F54A29545D92EFBB12E0FF64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30933D6BD13B3626D595A86EF3621210 /* PBXTargetDependency */,
+			);
+			name = "Pods-HamsterLibrary1_Example";
+			productName = "Pods-HamsterLibrary1_Example";
+			productReference = FA1344C9E8BF60842E9080401712C9D1 /* Pods_HamsterLibrary1_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		89378E7A160FE80270740EBA4DD068C9 /* Pods-HamsterLibrary1_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1297209CE05D772BA1DD3DCA31D32A32 /* Build configuration list for PBXNativeTarget "Pods-HamsterLibrary1_Tests" */;
+			buildPhases = (
+				4CAF9A6943E11518EBE3C5CCE084813C /* Headers */,
+				BFECD416EA5CC5B3E7B59BA0A6B57691 /* Sources */,
+				B9940D741C38DB4FB3C817EA69A1601A /* Frameworks */,
+				AADEF85630D0445FC4B95C9B74316B3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7D8ACEF5B7387EE0F3DBAE5699A6D2F /* PBXTargetDependency */,
+			);
+			name = "Pods-HamsterLibrary1_Tests";
+			productName = "Pods-HamsterLibrary1_Tests";
+			productReference = 70947E433AC73C70D1BF0FD066731CF7 /* Pods_HamsterLibrary1_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E17BDF47A6FE646B2BC8C82E0733CEAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E9D9552500AD04051ADCB89DDC648D2 /* HamsterLibrary1 */,
+				4977B864C29FA4ABF8A8CAEF888B0043 /* Pods-HamsterLibrary1_Example */,
+				89378E7A160FE80270740EBA4DD068C9 /* Pods-HamsterLibrary1_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		373EEDF1F54A29545D92EFBB12E0FF64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADEF85630D0445FC4B95C9B74316B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9A4C41A0A03CB39BC4A899B6D52CC86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EB01C21E6CC055F5C747F0CCBD874EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1394B3CCAD2E2063AC4B7F41B47F355B /* HamsterLibrary1-dummy.m in Sources */,
+				7D17DCF849CDCDFC4ABB36309AE19984 /* Printer1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48AF88C200DC12589D4EE70E6EA2C423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F51997CD23B393A481B0C73ABA96014 /* Pods-HamsterLibrary1_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFECD416EA5CC5B3E7B59BA0A6B57691 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4C9E0F5ACF7BA27BB03B00AC1E9D69 /* Pods-HamsterLibrary1_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30933D6BD13B3626D595A86EF3621210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HamsterLibrary1;
+			target = 3E9D9552500AD04051ADCB89DDC648D2 /* HamsterLibrary1 */;
+			targetProxy = 2FBD00DBA37C4E60B14F41C0BA38528D /* PBXContainerItemProxy */;
+		};
+		A7D8ACEF5B7387EE0F3DBAE5699A6D2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HamsterLibrary1_Example";
+			target = 4977B864C29FA4ABF8A8CAEF888B0043 /* Pods-HamsterLibrary1_Example */;
+			targetProxy = B9775AE95E3E9CE8C47D13EEDDE1EAD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F2D157D0BB8FC607E644EC757535773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 739E057D02343FA8F4C34982D2EBB8D5 /* Pods-HamsterLibrary1_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HamsterLibrary1_Tests/Pods-HamsterLibrary1_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HamsterLibrary1_Tests/Pods-HamsterLibrary1_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		62B5362875BCEF4140FFEBFEFD8A6754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AF4DAF830283565C2549620E8528E1B /* HamsterLibrary1.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HamsterLibrary1/HamsterLibrary1-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HamsterLibrary1/HamsterLibrary1-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HamsterLibrary1/HamsterLibrary1.modulemap";
+				PRODUCT_MODULE_NAME = HamsterLibrary1;
+				PRODUCT_NAME = HamsterLibrary1;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6531BD7BE7E23D6311F12BEE6C0D94C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA9EEA153C470CD3A911FED83E720EA7 /* Pods-HamsterLibrary1_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HamsterLibrary1_Example/Pods-HamsterLibrary1_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HamsterLibrary1_Example/Pods-HamsterLibrary1_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		88C66782DA850A295EEE30284C60643A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AF4DAF830283565C2549620E8528E1B /* HamsterLibrary1.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HamsterLibrary1/HamsterLibrary1-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HamsterLibrary1/HamsterLibrary1-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HamsterLibrary1/HamsterLibrary1.modulemap";
+				PRODUCT_MODULE_NAME = HamsterLibrary1;
+				PRODUCT_NAME = HamsterLibrary1;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A100B83672BAD4ECBB10E91CFBF87D70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 239C0B50527D3970F5C1DD74284FA89A /* Pods-HamsterLibrary1_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HamsterLibrary1_Tests/Pods-HamsterLibrary1_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HamsterLibrary1_Tests/Pods-HamsterLibrary1_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C14E932D4C3EFCC589F7DEABCEC18F22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E92B11B6A92FDC478CE3149D06750D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D65A8C0CC440EE5F0C1101481138DDD1 /* Pods-HamsterLibrary1_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HamsterLibrary1_Example/Pods-HamsterLibrary1_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HamsterLibrary1_Example/Pods-HamsterLibrary1_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF3BAAA889B17377BE8F3254633FA0A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1297209CE05D772BA1DD3DCA31D32A32 /* Build configuration list for PBXNativeTarget "Pods-HamsterLibrary1_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2D157D0BB8FC607E644EC757535773 /* Debug */,
+				A100B83672BAD4ECBB10E91CFBF87D70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2174058CD54D39A2ACFE038E3840236E /* Build configuration list for PBXNativeTarget "Pods-HamsterLibrary1_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92B11B6A92FDC478CE3149D06750D6C /* Debug */,
+				6531BD7BE7E23D6311F12BEE6C0D94C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D16E8D12D56ACBB9473AE05F4DA5995 /* Build configuration list for PBXNativeTarget "HamsterLibrary1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B5362875BCEF4140FFEBFEFD8A6754 /* Debug */,
+				88C66782DA850A295EEE30284C60643A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3BAAA889B17377BE8F3254633FA0A7 /* Debug */,
+				C14E932D4C3EFCC589F7DEABCEC18F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
