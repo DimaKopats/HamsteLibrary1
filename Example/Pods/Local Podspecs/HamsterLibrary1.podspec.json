@@ -1,6 +1,6 @@
 {
   "name": "HamsterLibrary1",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "summary": "pod for printing first",
   "description": "The only function of this pod is to print \"first\" to the console \nand call second pod to print \"second\"",
   "homepage": "https://github.com/DimaKopats/HamsterLibrary1",
@@ -13,12 +13,17 @@
   },
   "source": {
     "git": "https://github.com/DimaKopats/HamsterLibrary1.git",
-    "tag": "1.0.0"
+    "tag": "1.0.2"
   },
   "platforms": {
     "ios": "9.0"
   },
   "swift_versions": "4.0",
   "source_files": "HamsterLibrary1/Classes/**/*",
+  "dependencies": {
+    "HamsterLibrary2": [
+      "~> 1.0.2"
+    ]
+  },
   "swift_version": "4.0"
 }

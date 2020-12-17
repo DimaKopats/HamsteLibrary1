@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HamsterLibrary1'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'pod for printing first'
 
 # This description is used to generate tags and improve search results.
@@ -41,4 +41,5 @@ and call second pod to print "second"
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'HamsterLibrary2', '~> 1.0.2'
 end

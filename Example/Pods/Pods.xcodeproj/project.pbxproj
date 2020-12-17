@@ -7,27 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1394B3CCAD2E2063AC4B7F41B47F355B /* HamsterLibrary1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1369A0A9D08BC90CE91C26BF07A22442 /* HamsterLibrary1-dummy.m */; };
-		189A9367D4F6A71C5E52F9FFFC51083F /* HamsterLibrary1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31C53CE65EAFB002A79C85CC09E637F3 /* HamsterLibrary1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F51997CD23B393A481B0C73ABA96014 /* Pods-HamsterLibrary1_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D03B4724B72DC4E8D6FAE497F679CF1 /* Pods-HamsterLibrary1_Example-dummy.m */; };
+		267BEAD2DA486222063BAFDA31972BDC /* HamsterLibrary1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1369A0A9D08BC90CE91C26BF07A22442 /* HamsterLibrary1-dummy.m */; };
+		2CD1702E552BD1334DD9B27A6EFAA65D /* Printer2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C97F40D8DDB08B560C581F3D08AE1D9 /* Printer2.swift */; };
+		317D07E12B2F6E8E4AE550A149EA07FB /* HamsterLibrary2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0D33C1A2B1884092641DDFB4412839B /* HamsterLibrary2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		376C55AA398B84C6118C4750FD04236D /* Pods-HamsterLibrary1_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B478F45A9552F30F74C94D5056D87D16 /* Pods-HamsterLibrary1_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A338BDCB0853D8708565C9225DAB71C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7416D1DC98B46E35EB16FAEDC64CA2CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7D17DCF849CDCDFC4ABB36309AE19984 /* Printer1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B28BA0C6C77037B1013A32ADE65EFE4 /* Printer1.swift */; };
-		9C84D9A3A80731A0A81CB3F183A405EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		EB95855DD01F4872D52B39F9CB4564E3 /* Pods-HamsterLibrary1_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA9BEA1E169F52F9B7BFCCC179A60BE /* Pods-HamsterLibrary1_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D9934A8C57D6FAB1FDEF5BC22738D46 /* HamsterLibrary2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEC5F0E1B5F3E96DC79860083B1F4C3 /* HamsterLibrary2-dummy.m */; };
+		4F907C8FDDA2891E8D532BF34356B3A4 /* Pods-HamsterLibrary1_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EA9BEA1E169F52F9B7BFCCC179A60BE /* Pods-HamsterLibrary1_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		738FB8D2C4CB18B95D8D613981B5DA9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6904B704EB338720BD24F1052EE522DD /* Foundation.framework */; };
+		7416D1DC98B46E35EB16FAEDC64CA2CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6904B704EB338720BD24F1052EE522DD /* Foundation.framework */; };
+		88D05C598ECA57A6151CCFEEF39070A5 /* HamsterLibrary2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FF39977FF7C4447BA8B0B08AE590FF /* HamsterLibrary2.framework */; };
+		9A94756A76114526EADAA67A4F99FFF5 /* Pods-HamsterLibrary1_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D03B4724B72DC4E8D6FAE497F679CF1 /* Pods-HamsterLibrary1_Example-dummy.m */; };
+		AA9D58B42A74F545BF24F0E1CFB31667 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6904B704EB338720BD24F1052EE522DD /* Foundation.framework */; };
+		CD97A0E021280638A6F76B8101551C92 /* HamsterLibrary1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31C53CE65EAFB002A79C85CC09E637F3 /* HamsterLibrary1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6FC4CE26A438ADB162D03A3F8E74240 /* Printer1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B28BA0C6C77037B1013A32ADE65EFE4 /* Printer1.swift */; };
+		F9CB3AC663697E51222DF29BF1F02C0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6904B704EB338720BD24F1052EE522DD /* Foundation.framework */; };
 		FF4C9E0F5ACF7BA27BB03B00AC1E9D69 /* Pods-HamsterLibrary1_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AF5FC4DAB70DBEDB181324A7BB2BBC /* Pods-HamsterLibrary1_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2FBD00DBA37C4E60B14F41C0BA38528D /* PBXContainerItemProxy */ = {
+		495E326FB7A5FEF59BA16EF45550F2B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9768438BEC1A52F2194717D31DA6AFD;
+			remoteInfo = HamsterLibrary2;
+		};
+		84F0A378414CF223A92994893DF466B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9768438BEC1A52F2194717D31DA6AFD;
+			remoteInfo = HamsterLibrary2;
+		};
+		C0494CDA45D723BB1609C75EC812C53E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3E9D9552500AD04051ADCB89DDC648D2;
 			remoteInfo = HamsterLibrary1;
 		};
-		B9775AE95E3E9CE8C47D13EEDDE1EAD1 /* PBXContainerItemProxy */ = {
+		EAB2C98DE44B901E55ABF6ABFCEF81FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -47,36 +66,53 @@
 		31C53CE65EAFB002A79C85CC09E637F3 /* HamsterLibrary1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HamsterLibrary1-umbrella.h"; sourceTree = "<group>"; };
 		35DF84EC09494F1FAE07DDDB3FE9B3EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3D03B4724B72DC4E8D6FAE497F679CF1 /* Pods-HamsterLibrary1_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HamsterLibrary1_Example-dummy.m"; sourceTree = "<group>"; };
+		43B582B03D91BC54ED56DAB7AD6A9BAD /* HamsterLibrary2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HamsterLibrary2-Info.plist"; sourceTree = "<group>"; };
 		47AF5FC4DAB70DBEDB181324A7BB2BBC /* Pods-HamsterLibrary1_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HamsterLibrary1_Tests-dummy.m"; sourceTree = "<group>"; };
 		4AF4DAF830283565C2549620E8528E1B /* HamsterLibrary1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HamsterLibrary1.xcconfig; sourceTree = "<group>"; };
 		4EC21C8E447989CCD181AACF63FF71EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		52FF39977FF7C4447BA8B0B08AE590FF /* HamsterLibrary2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HamsterLibrary2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B28BA0C6C77037B1013A32ADE65EFE4 /* Printer1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Printer1.swift; path = HamsterLibrary1/Classes/Printer1.swift; sourceTree = "<group>"; };
+		5C97F40D8DDB08B560C581F3D08AE1D9 /* Printer2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Printer2.swift; path = HamsterLibrary2/Classes/Printer2.swift; sourceTree = "<group>"; };
 		675BE96DD85B46D79237A43D94B91024 /* Pods-HamsterLibrary1_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HamsterLibrary1_Tests-Info.plist"; sourceTree = "<group>"; };
 		6780F792E35CD026546A039C07008347 /* Pods-HamsterLibrary1_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HamsterLibrary1_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6904B704EB338720BD24F1052EE522DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		70947E433AC73C70D1BF0FD066731CF7 /* Pods_HamsterLibrary1_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HamsterLibrary1_Tests.framework; path = "Pods-HamsterLibrary1_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		739E057D02343FA8F4C34982D2EBB8D5 /* Pods-HamsterLibrary1_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HamsterLibrary1_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		782B4959F74356D6597A8AC1A03B302F /* HamsterLibrary1.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HamsterLibrary1.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7EC293501AA11B2EE170C65E71CF6D37 /* HamsterLibrary2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HamsterLibrary2.framework; path = HamsterLibrary2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B478F45A9552F30F74C94D5056D87D16 /* Pods-HamsterLibrary1_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HamsterLibrary1_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C0D33C1A2B1884092641DDFB4412839B /* HamsterLibrary2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HamsterLibrary2-umbrella.h"; sourceTree = "<group>"; };
 		CA8033A7A088FE0B5643C0A4F3819DFA /* Pods-HamsterLibrary1_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HamsterLibrary1_Example.modulemap"; sourceTree = "<group>"; };
 		CA9EEA153C470CD3A911FED83E720EA7 /* Pods-HamsterLibrary1_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HamsterLibrary1_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CE09B69F70E5F7BB31DE6539EDD487ED /* Pods-HamsterLibrary1_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HamsterLibrary1_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D0F11674FFD50F1515FE4C97F98FC922 /* HamsterLibrary2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HamsterLibrary2-prefix.pch"; sourceTree = "<group>"; };
 		D65A8C0CC440EE5F0C1101481138DDD1 /* Pods-HamsterLibrary1_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HamsterLibrary1_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D86809A4DE8FE90B1299143587ED361B /* HamsterLibrary1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HamsterLibrary1.modulemap; sourceTree = "<group>"; };
 		D934606065E6C6DF12ED1AC3D541685A /* Pods-HamsterLibrary1_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HamsterLibrary1_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DA2DD02DEFCD2431398FCBB7079F32E0 /* HamsterLibrary1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HamsterLibrary1.framework; path = HamsterLibrary1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7A07168367BAB5FCD4D6DEA6DCD3F3 /* HamsterLibrary2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HamsterLibrary2.modulemap; sourceTree = "<group>"; };
+		DFEC5F0E1B5F3E96DC79860083B1F4C3 /* HamsterLibrary2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HamsterLibrary2-dummy.m"; sourceTree = "<group>"; };
 		F518AF81C49917C74621F90415547E10 /* HamsterLibrary1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HamsterLibrary1-prefix.pch"; sourceTree = "<group>"; };
+		F71C237BA331CFED06430A16303FEB54 /* HamsterLibrary2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HamsterLibrary2.xcconfig; sourceTree = "<group>"; };
 		F8DDCFC4FAFC203F3F6F047E5E54782B /* Pods-HamsterLibrary1_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HamsterLibrary1_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		FA1344C9E8BF60842E9080401712C9D1 /* Pods_HamsterLibrary1_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HamsterLibrary1_Example.framework; path = "Pods-HamsterLibrary1_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6118379DE4670807D5F46361357DB74F /* Frameworks */ = {
+		74B1F8CAAFF4A1943647717CD0D82F16 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C84D9A3A80731A0A81CB3F183A405EC /* Foundation.framework in Frameworks */,
+				AA9D58B42A74F545BF24F0E1CFB31667 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94FD850FED48CC848E725EDBF156B1B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CB3AC663697E51222DF29BF1F02C0E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,17 +124,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAE1F6BD279648B4C056D849BB1E7248 /* Frameworks */ = {
+		BFAA0EF7BF131D4F8123C7B072DF7CDF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A338BDCB0853D8708565C9225DAB71C /* Foundation.framework in Frameworks */,
+				738FB8D2C4CB18B95D8D613981B5DA9A /* Foundation.framework in Frameworks */,
+				88D05C598ECA57A6151CCFEEF39070A5 /* HamsterLibrary2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		150C22E6FB807AAC1713D708666420F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB2B74F018100EDDAF6BB03E7B0E2BE9 /* HamsterLibrary2 */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		39A2AEED7484CBE0EEF3C5C0AED2FD93 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC7A07168367BAB5FCD4D6DEA6DCD3F3 /* HamsterLibrary2.modulemap */,
+				F71C237BA331CFED06430A16303FEB54 /* HamsterLibrary2.xcconfig */,
+				DFEC5F0E1B5F3E96DC79860083B1F4C3 /* HamsterLibrary2-dummy.m */,
+				43B582B03D91BC54ED56DAB7AD6A9BAD /* HamsterLibrary2-Info.plist */,
+				D0F11674FFD50F1515FE4C97F98FC922 /* HamsterLibrary2-prefix.pch */,
+				C0D33C1A2B1884092641DDFB4412839B /* HamsterLibrary2-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HamsterLibrary2";
+			sourceTree = "<group>";
+		};
 		49C697390AA1FD7283D84DA458BBB37E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,14 +189,6 @@
 			path = "Target Support Files/Pods-HamsterLibrary1_Example";
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		5CB97F091C21A83D386F16111F94A5CB /* HamsterLibrary1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +198,15 @@
 			);
 			name = HamsterLibrary1;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		5E01D24E41B279F206D754E8B56A0F1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52FF39977FF7C4447BA8B0B08AE590FF /* HamsterLibrary2.framework */,
+				F12BFFCD02D25A207D61EDA30806F2BD /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		69F9AF83D3A12E4619D3E8B936553A3D /* Development Pods */ = {
@@ -197,33 +257,53 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				69F9AF83D3A12E4619D3E8B936553A3D /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				E17BDF47A6FE646B2BC8C82E0733CEAE /* Products */,
+				5E01D24E41B279F206D754E8B56A0F1C /* Frameworks */,
+				150C22E6FB807AAC1713D708666420F1 /* Pods */,
+				EDE206ACFA6036BEB7AE74090253B4C8 /* Products */,
 				7152A1C9706C3CD68B28EA214D50299C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		DB2B74F018100EDDAF6BB03E7B0E2BE9 /* HamsterLibrary2 */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				5C97F40D8DDB08B560C581F3D08AE1D9 /* Printer2.swift */,
+				39A2AEED7484CBE0EEF3C5C0AED2FD93 /* Support Files */,
 			);
-			name = Frameworks;
+			name = HamsterLibrary2;
+			path = HamsterLibrary2;
 			sourceTree = "<group>";
 		};
-		E17BDF47A6FE646B2BC8C82E0733CEAE /* Products */ = {
+		EDE206ACFA6036BEB7AE74090253B4C8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				DA2DD02DEFCD2431398FCBB7079F32E0 /* HamsterLibrary1.framework */,
+				7EC293501AA11B2EE170C65E71CF6D37 /* HamsterLibrary2.framework */,
 				FA1344C9E8BF60842E9080401712C9D1 /* Pods_HamsterLibrary1_Example.framework */,
 				70947E433AC73C70D1BF0FD066731CF7 /* Pods_HamsterLibrary1_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+		F12BFFCD02D25A207D61EDA30806F2BD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6904B704EB338720BD24F1052EE522DD /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		001536A9811B1C91A6D72E9A7409CA4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F907C8FDDA2891E8D532BF34356B3A4 /* Pods-HamsterLibrary1_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4CAF9A6943E11518EBE3C5CCE084813C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -232,19 +312,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8E07410A62AAA54DD67C3D55C0ABCDC /* Headers */ = {
+		5B9136899E3976136DABA29F2CBEE35A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				189A9367D4F6A71C5E52F9FFFC51083F /* HamsterLibrary1-umbrella.h in Headers */,
+				CD97A0E021280638A6F76B8101551C92 /* HamsterLibrary1-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CCEBAE3053E0B3273E3550069EDB699C /* Headers */ = {
+		F969AD9898CD5A7E8F724B0223300B85 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB95855DD01F4872D52B39F9CB4564E3 /* Pods-HamsterLibrary1_Example-umbrella.h in Headers */,
+				317D07E12B2F6E8E4AE550A149EA07FB /* HamsterLibrary2-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,16 +333,17 @@
 /* Begin PBXNativeTarget section */
 		3E9D9552500AD04051ADCB89DDC648D2 /* HamsterLibrary1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D16E8D12D56ACBB9473AE05F4DA5995 /* Build configuration list for PBXNativeTarget "HamsterLibrary1" */;
+			buildConfigurationList = F5A04187A347D8101368D55F96F6DDAE /* Build configuration list for PBXNativeTarget "HamsterLibrary1" */;
 			buildPhases = (
-				C8E07410A62AAA54DD67C3D55C0ABCDC /* Headers */,
-				0EB01C21E6CC055F5C747F0CCBD874EE /* Sources */,
-				6118379DE4670807D5F46361357DB74F /* Frameworks */,
-				F9A4C41A0A03CB39BC4A899B6D52CC86 /* Resources */,
+				5B9136899E3976136DABA29F2CBEE35A /* Headers */,
+				1DE8DF90490FD8B63522BEF45BA1A28D /* Sources */,
+				BFAA0EF7BF131D4F8123C7B072DF7CDF /* Frameworks */,
+				FF07A369FB44F1AD93EC16F7C09CB309 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				58F15F464A5F323B1F60AA27100DD6FE /* PBXTargetDependency */,
 			);
 			name = HamsterLibrary1;
 			productName = HamsterLibrary1;
@@ -271,17 +352,18 @@
 		};
 		4977B864C29FA4ABF8A8CAEF888B0043 /* Pods-HamsterLibrary1_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2174058CD54D39A2ACFE038E3840236E /* Build configuration list for PBXNativeTarget "Pods-HamsterLibrary1_Example" */;
+			buildConfigurationList = 1A1A70C539B6DC1F0A0B1A4C5BDCF73D /* Build configuration list for PBXNativeTarget "Pods-HamsterLibrary1_Example" */;
 			buildPhases = (
-				CCEBAE3053E0B3273E3550069EDB699C /* Headers */,
-				48AF88C200DC12589D4EE70E6EA2C423 /* Sources */,
-				FAE1F6BD279648B4C056D849BB1E7248 /* Frameworks */,
-				373EEDF1F54A29545D92EFBB12E0FF64 /* Resources */,
+				001536A9811B1C91A6D72E9A7409CA4E /* Headers */,
+				2576A47595D7786AA8D411833EB09CF0 /* Sources */,
+				74B1F8CAAFF4A1943647717CD0D82F16 /* Frameworks */,
+				213F708DC2256AFA8541D028B9D13162 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				30933D6BD13B3626D595A86EF3621210 /* PBXTargetDependency */,
+				849C97029AB3ADB45D6AE42BCE36FD9E /* PBXTargetDependency */,
+				74097E04F2C613003FBE83F9DCC8FDEC /* PBXTargetDependency */,
 			);
 			name = "Pods-HamsterLibrary1_Example";
 			productName = "Pods-HamsterLibrary1_Example";
@@ -300,11 +382,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				A7D8ACEF5B7387EE0F3DBAE5699A6D2F /* PBXTargetDependency */,
+				8174A069BA4049ED66A37F1FCDFCAAE4 /* PBXTargetDependency */,
 			);
 			name = "Pods-HamsterLibrary1_Tests";
 			productName = "Pods-HamsterLibrary1_Tests";
 			productReference = 70947E433AC73C70D1BF0FD066731CF7 /* Pods_HamsterLibrary1_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9768438BEC1A52F2194717D31DA6AFD /* HamsterLibrary2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2BF2C725C3EEBE0E838392DD0BFF315 /* Build configuration list for PBXNativeTarget "HamsterLibrary2" */;
+			buildPhases = (
+				F969AD9898CD5A7E8F724B0223300B85 /* Headers */,
+				74632AB4F43CE85A03EDC9500E8C0A2C /* Sources */,
+				94FD850FED48CC848E725EDBF156B1B8 /* Frameworks */,
+				2ED5C2E1973A030F7D93CF23002F03CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HamsterLibrary2;
+			productName = HamsterLibrary2;
+			productReference = 7EC293501AA11B2EE170C65E71CF6D37 /* HamsterLibrary2.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -325,11 +425,12 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E17BDF47A6FE646B2BC8C82E0733CEAE /* Products */;
+			productRefGroup = EDE206ACFA6036BEB7AE74090253B4C8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				3E9D9552500AD04051ADCB89DDC648D2 /* HamsterLibrary1 */,
+				F9768438BEC1A52F2194717D31DA6AFD /* HamsterLibrary2 */,
 				4977B864C29FA4ABF8A8CAEF888B0043 /* Pods-HamsterLibrary1_Example */,
 				89378E7A160FE80270740EBA4DD068C9 /* Pods-HamsterLibrary1_Tests */,
 			);
@@ -337,7 +438,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		373EEDF1F54A29545D92EFBB12E0FF64 /* Resources */ = {
+		213F708DC2256AFA8541D028B9D13162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ED5C2E1973A030F7D93CF23002F03CB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -351,7 +459,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9A4C41A0A03CB39BC4A899B6D52CC86 /* Resources */ = {
+		FF07A369FB44F1AD93EC16F7C09CB309 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,20 +469,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0EB01C21E6CC055F5C747F0CCBD874EE /* Sources */ = {
+		1DE8DF90490FD8B63522BEF45BA1A28D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1394B3CCAD2E2063AC4B7F41B47F355B /* HamsterLibrary1-dummy.m in Sources */,
-				7D17DCF849CDCDFC4ABB36309AE19984 /* Printer1.swift in Sources */,
+				267BEAD2DA486222063BAFDA31972BDC /* HamsterLibrary1-dummy.m in Sources */,
+				D6FC4CE26A438ADB162D03A3F8E74240 /* Printer1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48AF88C200DC12589D4EE70E6EA2C423 /* Sources */ = {
+		2576A47595D7786AA8D411833EB09CF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F51997CD23B393A481B0C73ABA96014 /* Pods-HamsterLibrary1_Example-dummy.m in Sources */,
+				9A94756A76114526EADAA67A4F99FFF5 /* Pods-HamsterLibrary1_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74632AB4F43CE85A03EDC9500E8C0A2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9934A8C57D6FAB1FDEF5BC22738D46 /* HamsterLibrary2-dummy.m in Sources */,
+				2CD1702E552BD1334DD9B27A6EFAA65D /* Printer2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,54 +506,34 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		30933D6BD13B3626D595A86EF3621210 /* PBXTargetDependency */ = {
+		58F15F464A5F323B1F60AA27100DD6FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = HamsterLibrary1;
-			target = 3E9D9552500AD04051ADCB89DDC648D2 /* HamsterLibrary1 */;
-			targetProxy = 2FBD00DBA37C4E60B14F41C0BA38528D /* PBXContainerItemProxy */;
+			name = HamsterLibrary2;
+			target = F9768438BEC1A52F2194717D31DA6AFD /* HamsterLibrary2 */;
+			targetProxy = 84F0A378414CF223A92994893DF466B7 /* PBXContainerItemProxy */;
 		};
-		A7D8ACEF5B7387EE0F3DBAE5699A6D2F /* PBXTargetDependency */ = {
+		74097E04F2C613003FBE83F9DCC8FDEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HamsterLibrary2;
+			target = F9768438BEC1A52F2194717D31DA6AFD /* HamsterLibrary2 */;
+			targetProxy = 495E326FB7A5FEF59BA16EF45550F2B6 /* PBXContainerItemProxy */;
+		};
+		8174A069BA4049ED66A37F1FCDFCAAE4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-HamsterLibrary1_Example";
 			target = 4977B864C29FA4ABF8A8CAEF888B0043 /* Pods-HamsterLibrary1_Example */;
-			targetProxy = B9775AE95E3E9CE8C47D13EEDDE1EAD1 /* PBXContainerItemProxy */;
+			targetProxy = EAB2C98DE44B901E55ABF6ABFCEF81FA /* PBXContainerItemProxy */;
+		};
+		849C97029AB3ADB45D6AE42BCE36FD9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HamsterLibrary1;
+			target = 3E9D9552500AD04051ADCB89DDC648D2 /* HamsterLibrary1 */;
+			targetProxy = C0494CDA45D723BB1609C75EC812C53E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3F2D157D0BB8FC607E644EC757535773 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 739E057D02343FA8F4C34982D2EBB8D5 /* Pods-HamsterLibrary1_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HamsterLibrary1_Tests/Pods-HamsterLibrary1_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HamsterLibrary1_Tests/Pods-HamsterLibrary1_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		62B5362875BCEF4140FFEBFEFD8A6754 /* Debug */ = {
+		11AB8A1E760D7404FF7821A34187E7B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4AF4DAF830283565C2549620E8528E1B /* HamsterLibrary1.xcconfig */;
 			buildSettings = {
@@ -466,7 +563,7 @@
 			};
 			name = Debug;
 		};
-		6531BD7BE7E23D6311F12BEE6C0D94C6 /* Release */ = {
+		37AB2BF2867FFF6A873969A721221537 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CA9EEA153C470CD3A911FED83E720EA7 /* Pods-HamsterLibrary1_Example.release.xcconfig */;
 			buildSettings = {
@@ -499,7 +596,70 @@
 			};
 			name = Release;
 		};
-		88C66782DA850A295EEE30284C60643A /* Release */ = {
+		3F2D157D0BB8FC607E644EC757535773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 739E057D02343FA8F4C34982D2EBB8D5 /* Pods-HamsterLibrary1_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HamsterLibrary1_Tests/Pods-HamsterLibrary1_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HamsterLibrary1_Tests/Pods-HamsterLibrary1_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		460865E70B9F076AF3874BB8C96A06A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F71C237BA331CFED06430A16303FEB54 /* HamsterLibrary2.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HamsterLibrary2/HamsterLibrary2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HamsterLibrary2/HamsterLibrary2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HamsterLibrary2/HamsterLibrary2.modulemap";
+				PRODUCT_MODULE_NAME = HamsterLibrary2;
+				PRODUCT_NAME = HamsterLibrary2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A9791E1ABAEB7527BBC050B4E823BFA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4AF4DAF830283565C2549620E8528E1B /* HamsterLibrary1.xcconfig */;
 			buildSettings = {
@@ -624,7 +784,7 @@
 			};
 			name = Release;
 		};
-		E92B11B6A92FDC478CE3149D06750D6C /* Debug */ = {
+		CAA13B8D5C6D6D76E8CBE8EFC61CDB6E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D65A8C0CC440EE5F0C1101481138DDD1 /* Pods-HamsterLibrary1_Example.debug.xcconfig */;
 			buildSettings = {
@@ -721,6 +881,36 @@
 			};
 			name = Debug;
 		};
+		F10ED869B966D217CF30537956BB9BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F71C237BA331CFED06430A16303FEB54 /* HamsterLibrary2.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HamsterLibrary2/HamsterLibrary2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HamsterLibrary2/HamsterLibrary2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HamsterLibrary2/HamsterLibrary2.modulemap";
+				PRODUCT_MODULE_NAME = HamsterLibrary2;
+				PRODUCT_NAME = HamsterLibrary2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -733,20 +923,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2174058CD54D39A2ACFE038E3840236E /* Build configuration list for PBXNativeTarget "Pods-HamsterLibrary1_Example" */ = {
+		1A1A70C539B6DC1F0A0B1A4C5BDCF73D /* Build configuration list for PBXNativeTarget "Pods-HamsterLibrary1_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E92B11B6A92FDC478CE3149D06750D6C /* Debug */,
-				6531BD7BE7E23D6311F12BEE6C0D94C6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2D16E8D12D56ACBB9473AE05F4DA5995 /* Build configuration list for PBXNativeTarget "HamsterLibrary1" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				62B5362875BCEF4140FFEBFEFD8A6754 /* Debug */,
-				88C66782DA850A295EEE30284C60643A /* Release */,
+				CAA13B8D5C6D6D76E8CBE8EFC61CDB6E /* Debug */,
+				37AB2BF2867FFF6A873969A721221537 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -756,6 +937,24 @@
 			buildConfigurations = (
 				EF3BAAA889B17377BE8F3254633FA0A7 /* Debug */,
 				C14E932D4C3EFCC589F7DEABCEC18F22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2BF2C725C3EEBE0E838392DD0BFF315 /* Build configuration list for PBXNativeTarget "HamsterLibrary2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10ED869B966D217CF30537956BB9BA0 /* Debug */,
+				460865E70B9F076AF3874BB8C96A06A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5A04187A347D8101368D55F96F6DDAE /* Build configuration list for PBXNativeTarget "HamsterLibrary1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11AB8A1E760D7404FF7821A34187E7B9 /* Debug */,
+				7A9791E1ABAEB7527BBC050B4E823BFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

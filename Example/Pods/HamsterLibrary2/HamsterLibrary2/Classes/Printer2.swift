@@ -1,5 +1,5 @@
 //
-//  Printer1.swift
+//  Printer2.swift
 //  HamsterLibrary2
 //
 //  Created by Dzmitry Kopats on 12/17/2020.
@@ -7,14 +7,9 @@
 //
 
 import Foundation
-import HamsterLibrary2
 
-public class Printer1 {
-    public static func printFirst() {
-        print("first")
-    }
-    
+public class Printer2 {
     public static func printSecond() {
-        Printer2.printSecond()
+        print("second")
     }
 }

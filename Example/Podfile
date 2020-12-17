@@ -3,7 +3,9 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'HamsterLibrary1_Example' do
+  
   pod 'HamsterLibrary1', :path => '../'
+  pod 'HamsterLibrary2', :git => 'https://github.com/DimaKopats/HamsterLibrary2.git'
 
   target 'HamsterLibrary1_Tests' do
     inherit! :search_paths

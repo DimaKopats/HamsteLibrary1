@@ -1,16 +1,27 @@
 PODS:
-  - HamsterLibrary1 (1.0.0)
+  - HamsterLibrary1 (1.0.2):
+    - HamsterLibrary2 (~> 1.0.2)
+  - HamsterLibrary2 (1.0.2)
 
 DEPENDENCIES:
   - HamsterLibrary1 (from `../`)
+  - HamsterLibrary2 (from `https://github.com/DimaKopats/HamsterLibrary2.git`)
 
 EXTERNAL SOURCES:
   HamsterLibrary1:
     :path: "../"
+  HamsterLibrary2:
+    :git: https://github.com/DimaKopats/HamsterLibrary2.git
+
+CHECKOUT OPTIONS:
+  HamsterLibrary2:
+    :commit: 2b39093c979737c3d687e0f5453b6366137e56dd
+    :git: https://github.com/DimaKopats/HamsterLibrary2.git
 
 SPEC CHECKSUMS:
-  HamsterLibrary1: 0fcaa6fd12f6370c6fd3b32da5c98d351368b571
+  HamsterLibrary1: 62a748981f4e4e2c2aa754e3d384122285fd8f78
+  HamsterLibrary2: 9f5eecba48908bbe26a835f1f01954990393223a
 
-PODFILE CHECKSUM: 313e8e26ca4473c5889b53534117ab2494379d29
+PODFILE CHECKSUM: 82a3e1ebaaf9cb45a4ce70f60ed2511cbdb5ecb9
 
 COCOAPODS: 1.8.4

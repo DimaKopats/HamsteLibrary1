@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4BB16F9CDDC29F47609A904F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4BB16F9CDDC29F47609A904F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4C6861C7A3ACC830C7485848 /* Pods_HamsterLibrary1_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HamsterLibrary1_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* HamsterLibrary1_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HamsterLibrary1_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,8 +40,8 @@
 		607FACE51AFB9204008FA782 /* HamsterLibrary1_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamsterLibrary1_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7875BF3B3465F7F51C518DD7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A62EB87513861D75A56C6D55 /* HamsterLibrary1.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HamsterLibrary1.podspec; path = ../HamsterLibrary1.podspec; sourceTree = "<group>"; };
+		7875BF3B3465F7F51C518DD7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A62EB87513861D75A56C6D55 /* HamsterLibrary1.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HamsterLibrary1.podspec; path = ../HamsterLibrary1.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ACC65F54FEE8185CC285D3F9 /* Pods_HamsterLibrary1_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HamsterLibrary1_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B088CA66DBCCDF62172969A4 /* Pods-HamsterLibrary1_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HamsterLibrary1_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HamsterLibrary1_Tests/Pods-HamsterLibrary1_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C49BF238D17FB6FA4ECD4B32 /* Pods-HamsterLibrary1_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HamsterLibrary1_Example.release.xcconfig"; path = "Target Support Files/Pods-HamsterLibrary1_Example/Pods-HamsterLibrary1_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				B088CA66DBCCDF62172969A4 /* Pods-HamsterLibrary1_Tests.debug.xcconfig */,
 				D8B1407CA0231B5D77D70CD7 /* Pods-HamsterLibrary1_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -314,10 +314,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HamsterLibrary1_Example/Pods-HamsterLibrary1_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HamsterLibrary1/HamsterLibrary1.framework",
+				"${BUILT_PRODUCTS_DIR}/HamsterLibrary2/HamsterLibrary2.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HamsterLibrary1.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HamsterLibrary2.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
